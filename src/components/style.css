@@ -1,0 +1,102 @@
+
+@import url("https://fonts.googleapis.com/css?family=Sofia");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+*{
+  
+    text-align: center;
+    background-color: rgb(218, 202, 137);
+    align-items: center;
+   
+  }
+  .Heading{
+    font-family: 'Mochiy Pop One', sans-serif;;
+  }
+  .Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 320px;
+    
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px 0 #555;
+    background-image: linear-gradient(white,white,white,rgb(134, 134, 230), rgb(11, 11, 49));
+  }
+  .label{
+    background-color: transparent;
+  }
+  .inputData{
+      height: 50px;
+      background-color: transparent;
+      font-family: 'Lato' ;
+      display: block;
+      margin: 0 auto;
+  }
+  .inputField{
+    margin: auto;
+    padding: 0px;
+    border-radius: 10px;
+    text-align:center;
+    font-size: 17px;
+    width: 180px;
+    background-color: rgb(226, 175, 156);
+  }
+  .info, .location, .errorMsg, h3 ,h2 ,.D{
+      background-color: transparent;
+    }
+    
+ .weather{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   background:rgb(241, 230, 225);
+   font-size: 20px;
+  width: 140px;
+ 
+  margin: auto;
+  border-radius: 20px;
+  color: darkslategrey;
+ }
+ .location{
+  font-size: 25px;
+  font-family: 'Sonsie One';
+  color: rgb(12, 12, 70);
+ }
+  .citytemp{
+    background:transparent;
+   
+    font-family: 'Lobster';
+    font-size: 25px;
+  }
+  h3{
+      color: rgb(25, 95, 88);
+  }
+  span{
+     
+      border-radius: 5px;
+      background-color: violet;
+      font-family: 'Lobster';
+     
+  }
+  .daydiv{
+    background-color: rgb(141, 127, 73);
+    width: 100%;
+  }
+  .day{
+    font-size: 20px;
+    font-family: 'Sofia', sans-serif;
+    background-color: rgb(141, 127, 73);
+  }
+  .image{
+    border-radius: 6px;
+    background-color:coral;
+  }
+  .parent{
+
+  
+    display: inline-flex;
+  
+    }
+  
